@@ -4,14 +4,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <title>To-Do List</title>
 </head>
 <body>
-<h1 class="header">TO-DO LIST</h1>
-
-<input type="text" id="todo-input"> <button class="todo-add" onclick="pushElement(), printScreen();">Ekle</button>
-<table id="todo-table"></table>
-
-<script src="app.js">printScreen();</script>
+<h1 style="margin-top: 0;" class="w3-pink w3-wide w3-center">TO-DO LIST</h1>
+<div class="w3-container w3-center">
+<input type="text" id="todo-input" class="w3-round-xlarge w3-border"> <button class="w3-button w3-circle w3-red" onclick="pushElement(), printScreen();">+</button>
+</div>
+<div class="w3-container">
+<table class="" id="todo-table"></table>
+</div>
+<script src="app.js"></script>
 </body>
 </html>
