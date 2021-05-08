@@ -9,7 +9,10 @@ tr {
     text-align: left;
 }
 table {
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
+}
+input {
+    margin-top: 20px !important;
 }
